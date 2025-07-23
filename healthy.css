@@ -1,0 +1,95 @@
+/* Section Healty */
+#healthy{
+    background-color: #F9F9F7;
+    height: 600px;
+    width: 100%;
+    display: flex;
+ padding-top: 80px;
+ padding-left: 60px;
+}
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 5%;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.left-column {
+  flex: 1;
+  min-width: 300px;
+  position: relative;
+ 
+}
+
+.image-container {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 550px;
+  border-radius: 10px;
+  height: 500px;
+}
+
+.contact-card {
+  /* position: absolute; */
+  bottom: 20px;
+  position: relative;
+ left: 280px;
+ bottom: 200px;
+  height: 200px;
+  background-color: #2f2f2f;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+  font-size: 14px;
+}
+
+.contact-card h3 {
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.right-column {
+  flex: 1;
+  min-width: 300px;
+ 
+}
+
+.right-column h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #212121;
+  margin-right: 200px;
+  font-family: "PlayfairDisplay";
+  font-weight: 500;
+}
+
+.right-column p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  margin-right: 200px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: 1px solid black;
+  background-color: transparent;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
